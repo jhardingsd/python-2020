@@ -1,11 +1,7 @@
-# Declare a variable and initialize it
-f = 101
-print(f)
-# Global vs. local variables in functions
-def someFunction():
-# global f
-    f = 'I am learning Python'
-    print(f)
+num1 = 5
+def main:
+    for 1 in range(10)
+        num1 += 1
+        print(num1)
 
-someFunction()
-print(f)
+main()
