@@ -2,8 +2,9 @@ def crazy(callback):
     callback('my mind!!!!')
 
 
-def saySomething(thingToSay):
-    print(thingToSay)
+def say_something(thingtosay):
+    print(thingtosay)
 
-crazy(saySomething)
+
+crazy(say_something)
 crazy(print)
